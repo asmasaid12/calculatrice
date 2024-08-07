@@ -1,14 +1,21 @@
 //claluatrice programe
 
-const display =document.getElementById("display");
+const display=document.getElementById("display");
+
+
 function appendToDisplay(input){
     display.value+=input;
 
+}
 
-}
+
+
 function clearDisplay(){
-display.value=" ";
+display.value="";
 }
+
+
+
 function caclulate(){
 try{
     display.value=eval(display.value);
@@ -17,8 +24,6 @@ try{
 catch(error){
     display.value="Error";
 };
-
-
 
 }
 
