@@ -11,14 +11,14 @@ function appendToDisplay(input){
 
 
 function clearDisplay(){
-dheaderofcalcul.value="";
+headerofcalcul.value="";
 }
 
 
 
 function calculate(){
 try{
-    dheaderofcalcul.value=eval(dheaderofcalcul.value);
+    headerofcalcul.value=eval(headerofcalcul.value);
 
 }
 catch(error){
