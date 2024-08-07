@@ -1,28 +1,28 @@
 //claluatrice programe
 
-const display=document.getElementById("display");
+const display=document.getElementById("headerofcalcul");
 
 
 function appendToDisplay(input){
-    display.value+=input;
+    headerofcalcul.value+=input;
 
 }
 
 
 
 function clearDisplay(){
-display.value="";
+dheaderofcalcul.value="";
 }
 
 
 
-function caclulate(){
+function calculate(){
 try{
-    display.value=eval(display.value);
+    dheaderofcalcul.value=eval(dheaderofcalcul.value);
 
 }
 catch(error){
-    display.value="Error";
+    headerofcalcul.value="Error";
 };
 
 }

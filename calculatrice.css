@@ -25,7 +25,7 @@ button{
 
 }
 
-#display{
+#headerofcalcul{
     width:100%;
     padding:20px;
     font-size:5rem;
@@ -52,16 +52,16 @@ button:active{
 
 }
 
-.operator-btn{
-    background-color:hsl(35,100%,55%);
+.op-btn{
+    background-color:hsl(133, 89%, 51%);
 }
 
 
-.operator-btn:hover{
-    background-color:hsl(35,100%,65%);
+.op-btn:hover{
+    background-color:hsl(135, 83%, 50%);
 }
 
-.operator-btn:active{
-    background-color:hsl(35,100%,55%);
+.op-btn:active{
+    background-color:hsl(118, 84%, 49%);
 }
 
